@@ -35,4 +35,8 @@ cp /work/uboot-mender/integration-binaries/*.tar* /output
 /usr/local/bin/build-uboot-bbb.sh
 cp /work/beaglebone_black*.tar* /output
 
+# Orangepi Pi 3
+/usr/local/bin/build-uboot-opi.sh
+cp /work/orangepi*.tar* /output
+
 chown -R --reference /output /output/*
